@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("h1").hide();
+  $( "#arrow" ).effect( "bounce", { times: 500 }, "slow" );
 });
 
 
