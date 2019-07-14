@@ -1,5 +1,10 @@
-$(document).ready(function(){
+var animateArrow = function(){
   $( "#arrow" ).effect( "bounce", { times: 500 }, "slow" );
+}
+
+
+$(document).ready(function(){
+  setInterval(animateArrow, 1000);
 });
 
 
